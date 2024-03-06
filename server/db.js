@@ -27,5 +27,3 @@ const createTableUsers = async () => {
     console.log("Создана таблица");
     await client.end()
 }
-
-createTableUsers()
